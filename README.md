@@ -11,17 +11,17 @@ You can give your answer in the localhost and run Eval.py to get answer
 
 
 ### 1.Descriptive Answers
-	 Firstly we collected answers from the Teachers and Resource persons and added that to the model answers Database.
+Firstly we collected answers from the Teachers and Resource persons and added that to the model answers Database.
 As the system evaluates more and more paper it's model answers database gets updated regularly.
 
 
 Evaluation is done based on following things
 
-####1. Keywords
-####2. Grammer
-####3. Fuzzy logic Score for Ignorable mistakes
-####4. Synonym checking 
-####5. Sequence of statements (for some subjects)
+#####1. Keywords
+#####2. Grammer
+#####3. Fuzzy logic Score for Ignorable mistakes
+#####4. Synonym checking 
+#####5. Sequence of statements (for some subjects)
 
 Our ML will predict the quality of answers based on these things
 
