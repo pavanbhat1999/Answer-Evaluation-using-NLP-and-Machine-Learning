@@ -12,23 +12,24 @@ You can give your answer in the localhost and run Eval.py to get answer
 
 ### 1.Descriptive Answers
 Firstly we collected answers from the Teachers and Resource persons and added that to the model answers Database.
+
 As the system evaluates more and more paper it's model answers database gets updated regularly.
 
 
 Evaluation is done based on following things
 
-#####1. Keywords
-#####2. Grammer
-#####3. Fuzzy logic Score for Ignorable mistakes
-#####4. Synonym checking 
-#####5. Sequence of statements (for some subjects)
+#### 1. Keywords
+#### 2. Grammer
+#### 3. Fuzzy logic Score for Ignorable mistakes
+#### 4. Synonym checking 
+#### 5. Sequence of statements (for some subjects)
 
 Our ML will predict the quality of answers based on these things
 
 Allotment of marks takes according to the quality of answers
 
 
-###### 1. keywords
+##### 1. keywords
 
 keywords are externaly provided and also extracted using data scraping and frequency distribution techniques.
 
@@ -39,14 +40,15 @@ Firstly texts (i.e. student's and model answer) converted into vectors. And from
 Now this gives value from 0 to 1. this is converted into numeric form (i.e. 0 to 100). And then keywords will get the value from 1-6
 
 
-###### 2. Grammer
+##### 2. Grammer
 
 This is checked using certain online compilers thanks for that 
+
 For this number of grammatical mistakes taken into consideration.
 
 PS:TODO
 
-###### 3. Ignorable Mistakes
+##### 3. Ignorable Mistakes
 
 Fuzzy Logic is used to give the value of Minimum editables
 
@@ -56,7 +58,7 @@ Fuzzy Logic is used to give the value of Minimum editables
 
 
 
-###### 4. Synonym Checking 
+##### 4. Synonym Checking 
 
 Python Libraries are used to get similer meaning words
 
@@ -64,9 +66,17 @@ You can even use pydictionary
 
 that found new word is also added into the database of model answers.
 
-###### 5. Sequence
+##### 5. Sequence
 
-certain questions need to be answered in certain sequences so that is also checked in our algo according to the model answers provided by assignong priority.
+certain questions need to be answered in certain sequences so that is also checked in our algo according to the model 
+
+answers provided by assignong priority.
+
+
+
+
+
+
 
 
 
